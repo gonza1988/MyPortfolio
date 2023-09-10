@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #66ff86;
+}
+
+.contenedorbanner{
+    width: 100%;
+}
+
+.banner__imagen{
+    height: calc(85vh - 510px);
+    width: 100%;
+}
+
+.aprendizaje {
+    background: #060E15;
+    display: flex;
+}
+
+/* Responsive */
+@media screen and (max-width:480px) {
+
+    .banner__imagen {
+        width: 100%;
+    }
+
+    .aprendizaje {
+        display: block;
+    }
+    
+}

@@ -1,0 +1,116 @@
+#contacto {
+	margin: 10px;
+}
+
+.contacto__info{
+    width: 80%;
+    margin: 0px 10%;
+    padding: 50px 0;
+}
+
+.contacto__titulo {
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	color: #060E15;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.contacto__texto{
+
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	color: #060E15;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+.contacto__descripcion{
+    margin-bottom: 5px;
+}
+
+.contacto__contenedor{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contacto__input {
+	width: calc(100% - 20px);
+	padding: 10px;
+	border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    border: none;
+    outline-style: none;
+    background-color: #060E15;
+    color: white;
+}
+
+.contacto__input::placeholder{
+    color: #ff66c4;
+    opacity: 40%;
+}
+
+.contacto__boton {
+	width: 100%;
+	padding: 15px 0;
+	border-radius: 15px;
+	margin: 20px 0px;
+    background-color: #ff66c4;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1.1rem;
+    outline-style: none;
+    border: none;
+    transition: all 300ms;
+}
+
+.contacto__boton:hover {
+	color: whitesmoke;
+	background-color: black;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 20px black;
+}
+
+.contacto__input-mensaje{
+    resize: none;
+}
+
+.contacto__Info__datos{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #060E15;
+    display: none;
+    text-shadow: 0 0 20px #060E15;
+}
+
+.contacto__errores{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+}
+
+.mostrar{
+    display: block;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 480px) {
+
+    .contacto__contenedor{
+        width: 75%;
+    }
+    
+
+    .contacto__input {
+        width: 100%;
+    }
+}
