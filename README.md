@@ -47,7 +47,7 @@
 **Extras:**  
 - La página debe contener un botón que le permita ver, en una nueva pestaña, una versión PDF de su currículum.
 
-*Sitio Web En Linea* : [Portfolio Personal](https://gonza1988.github.io/Challenge03-Portafolio-Alura/)
+*Sitio Web En Linea* : [Portfolio Personal](https://gonza1988.github.io/MyPortfolio/)
 
 *Linkedin* : [Gonzalo Cozzo](https://www.linkedin.com/in/gonzalo-cozzo-04158120b/)
 # MyPortfolio
